@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'SemiBold_Regular';
+    src: url('../../fonts/IBMPlexSans_Condensed-Regular.ttf');
+}
+  
+@font-face {
+    font-family: 'SemiBold';
+    src: url('../../fonts/IBMPlexSans_SemiCondensed-SemiBold.ttf');
+}
+  
+$font-family: 'SemiBold';
+$font-family-rejular: 'SemiBold_Regular';
+  
+
+.navbar {
+    background-color: #fff;
+    padding: 20px;
+    font-family: $font-family-rejular;
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .logo {
+        img {
+          height: 40px; 
+        }
+      }
+  
+      .menu {
+        display: flex;
+        align-items: center;
+  
+        .phone {
+          margin-right: 20px;
+          font-weight: bold;
+        }
+  
+        .links {
+          a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333; 
+          }
+        }
+      }
+  
+      .actions {
+        display: flex;
+        align-items: center;
+  
+        .login {
+          border: 1px solid #2962ff;
+          color: #2962ff;
+          padding: 8px 20px;
+          border-radius: 20px;
+          text-decoration: none;
+          margin-right: 10px;
+        }
+  
+        .register {
+          background-color: #2962ff;
+          color: #fff;
+          padding: 8px 20px;
+          border-radius: 20px;
+          text-decoration: none;
+        }
+  
+        .language {
+          margin-left: 10px;
+        }
+      }
+    }
+  }

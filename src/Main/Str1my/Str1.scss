@@ -1,0 +1,77 @@
+.StrName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    width: 100%;
+    >div{
+        width: 1232px;
+    }
+
+}
+.Str1{
+    width: 100%;
+    >.background1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 1800px;
+        >div{
+            width: 1232px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .grad_div{
+                width: 100%;
+                .grad{
+                    position: absolute;
+                }
+            }
+            .company{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >div{
+                    width: 1067px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    >div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: end;
+                        width: 418px;
+                        height: 216px;
+                        >div{
+                            text-align: end;
+                        }
+                        .bold{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    >.background2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 294px;
+        >div{
+            width: 1232px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            >div{
+                width: 100%;
+                height: 111px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
