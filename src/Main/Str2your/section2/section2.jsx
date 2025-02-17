@@ -1,11 +1,10 @@
-import React from 'react';
 import './section2.scss';
 
 const Section2 = () => {
   return (
     <section className="section2">
       <div className="container">
-        <h2 className="title">Нет ответа на интересующий вопрос?</h2>
+        <h3 className="title">Нет ответа на интересующий вопрос?</h3>
         <p className="subtitle">Заполни форму и наши менеджеры свяжутся с тобой</p>
 
         <form className="form">

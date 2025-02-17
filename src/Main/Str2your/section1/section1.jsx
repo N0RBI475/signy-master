@@ -1,13 +1,14 @@
-import React from 'react';
 import './section1.scss';
 
 function Section1() {
   return (
     <section className="section">
       <div className="faq-container">
-        <div>
-          <h5>Signy / Популярные вопросы</h5>
-        </div>
+        <section className='StrName'>
+            <div>
+                <h5>Signy / Популярные вопросы</h5>
+            </div>
+        </section>
         <h1 className="faq-title">Популярные вопросы и ответы на них</h1>
 
         <div className="faq-section">

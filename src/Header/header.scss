@@ -1,21 +1,6 @@
-@font-face {
-    font-family: 'SemiBold_Regular';
-    src: url('../../fonts/IBMPlexSans_Condensed-Regular.ttf');
-}
-  
-@font-face {
-    font-family: 'SemiBold';
-    src: url('../../fonts/IBMPlexSans_SemiCondensed-SemiBold.ttf');
-}
-  
-$font-family: 'SemiBold';
-$font-family-rejular: 'SemiBold_Regular';
-  
-
 .navbar {
     background-color: #fff;
     padding: 20px;
-    font-family: $font-family-rejular;
     
     .container {
       max-width: 1200px;
@@ -23,7 +8,7 @@ $font-family-rejular: 'SemiBold_Regular';
       display: flex;
       align-items: center;
       justify-content: space-between;
-  
+      font-size: 14px;
       .logo {
         img {
           height: 40px; 
@@ -36,14 +21,16 @@ $font-family-rejular: 'SemiBold_Regular';
   
         .phone {
           margin-right: 20px;
-          font-weight: bold;
         }
-  
+        p{
+          font-size: 14px;
+        }
         .links {
           a {
             margin-left: 20px;
             text-decoration: none;
             color: #333; 
+            
           }
         }
       }
